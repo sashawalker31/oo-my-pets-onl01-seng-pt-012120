@@ -5,6 +5,7 @@ class Owner
   attr_reader :species, :name, :owner
   
   def initialize(name)
+    @owner = owner
     @name = name 
     @species = "human"
     @@all << self
