@@ -41,10 +41,11 @@ class Owner
    my_pets = self.cats + self.dogs
    my_pets.each do |pets|
      pets.mood = "nervous"
+     pets.owner = nil
      #cats.mood = "nervous"
      #dogs.mood = "nervous"
     end
-      owner = nil
+     # owner = nil
    end
   
   def list_pets
